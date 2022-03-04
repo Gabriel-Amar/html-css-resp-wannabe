@@ -62,27 +62,12 @@ img{
 
 /* Media Queries */
 @media screen and (max-width: 490px){
-  #lezioni .row .left{
+  #lezioni .row .left, #lezioni .row .right{
     width: 100%;
   }
 }
 @media screen and (max-width: 490px){
-  #lezioni .row .right{
-    width: 100%;
-  }
-}
-@media screen and (max-width: 490px){
-  #steps .row .left{
-    width: 100%;
-  }
-}
-@media screen and (max-width: 490px){
-  #steps .row .central{
-    width: 100%;
-  }
-}
-@media screen and (max-width: 490px){
-  #steps .row .right{
+  #steps .row .left, #steps .row .central, #steps .row .right{
     width: 100%;
   }
 }
@@ -91,8 +76,8 @@ img{
     width: auto;
   }
 }
-@media screen and (max-width 490px){
-  .grey{
+@media screen and (max-width: 490px){
+  #lezioni, #why{
     background-color: #f2f2cd;
   }
 }
